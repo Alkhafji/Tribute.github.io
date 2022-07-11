@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background: white;
+  }
+  
+header{
+    width: 65%;
+    margin: 20px auto;
+    background-color: rgb(205, 235, 236);
+    padding: 10px 10px 10px;
+    box-shadow: 10px 10px 15px #000;
+  }
+  #titles{
+    font-family: castellar;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto 10px;
+    width: 90%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 100;
+    text-shadow: 7px 3px 8px #000;
+  }
+  #main{
+    width: 70%;
+    margin: 00 auto 10px;
+    background-color: white;
+    padding: 20px 10px 10px;
+  }
+
+#image {
+    width: 80%;
+    max-width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#img-div{
+    text-align: center;
+    border-radius: 50%;
+  overflow: hidden;
+ }
+ 
+
+p::first-letter{
+    color: darkblue;
+    font-size: 20px;
+   
+  }
+article{
+    display: block;
+}
+#titles h2{
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+#titles h1{
+  word-spacing: 8px;
+  margin: 0 auto;
+  letter-spacing: 12px;
+  padding-top: 15px;
+}
+#titles h1 span, #titles h2 span{
+  font-size: 50px;
+  font-weight: bold;
+}
+  
+
+  .container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+  .container div{
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  .container div h3{
+    text-align: center;
+    font-size: 24px;
+  }
+  .early-life{
+    text-align: justify;
+    background: rgba(188, 238, 221, 0.959);
+  }
+  .achievement{
+    text-align: justify;
+    background: rgb(192, 230, 240);
+  }
+  #section1{
+    width: 70%;
+   margin: 20px auto;
+   background-color: lavenderblush;
+   padding: 10px 10px 00;
+ }
+ #section2{
+  width: 70%;
+ margin: 20px auto;
+ background-color: lavenderblush;
+ padding: 10px 10px 00;
+}
+#section3{
+  width: 70%;
+ margin: 20px auto;
+ background-color: lavenderblush;
+ padding: 10px 10px 00;
+}
+ #tribute-info p{
+  font-size: 20px;
+  text-align: justify;
+  width: 90%;
+  margin: 00 auto 00px;
+  padding-bottom: 15px;
+}
+#tribute-info  a{
+  text-decoration: none;
+  color: rgb(223, 32, 18);
+  }
+ 
+ #presidency{
+  display: grid;
+  text-align: justify;
+ }
+ footer hr{
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+footer p{
+  margin-top: 4px;
+  text-align: right;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+ 
